@@ -5,42 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Expense Tracker App</title>
+    <title>ingresos y gastos diarios</title>
 </head>
 <body>
-    <h1>Expense Tracker App</h1>
+    <h1>ingresos y gastos diarios</h1>
     <div class="input-section">
         <label for="category-select">Category:</label>
         <select id="category-select">
-            <option value="Food & Beverage">Food & Beverage</option>
-            <option value="Rent">Rent</option>
-            <option value="Transport">Transport</option>
-            <option value="Relaxing">Relaxing</option>
+            <option value="Comida & Bebida">Food & Beverage</option>
+            <option value="Arriendo">Rent</option>
+            <option value="Transporte">Transport</option>
+            <option value="Relajarse">Relaxing</option>
         </select>
-        <label for="amount-input">Amount:</label>
-        <input type="number" id="amount-input">
-        <label for="date-input">Date:</label>
-        <input type="date" id="date-input">
-        <button id="add-btn">Add</button>
+        <label for="Cantidad de entrada">Amount:</label>
+        <input type="numero" id="cantidad entrada">
+        <label for="fecha de entrada">Date:</label>
+        <input type="fecha" id="date-input">
+        <button id="añadir boton">Add</button>
     </div>
-    <div class="expenses-list">
+    <div class="lista de gastos">
         <h2>Expenses List</h2>
         <table>
             <thead>
                 <tr>
-                    <th>Category</th>
-                    <th>Amount</th>
-                    <th>Date</th>
-                    <th>Delete</th>
+                    <th>Categoria</th>
+                    <th>Monto</th>
+                    <th>Fecha</th>
+                    <th>Eliminar</th>
                 </tr>
             </thead>
-            <tbody id="expnese-table-body">
+            <tbody id="Cuerpo de la tabla de gastos">
 
             </tbody>
             <tfoot>
                 <tr>
                     <td>Total:</td>
-                    <td id="total-amount"></td>
+                    <td id="Monto total"></td>
                     <td></td>
                     <td></td>
                 </tr>
