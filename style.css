@@ -20,7 +20,7 @@ body {
     margin-right: 10px;
   }
   
-  .input-section input[type="number"], .input-section input[type="date"] {
+  .input-section input[type="numero"], .input-section input[type="Fecha"] {
     padding: 5px;
     margin-right: 10px;
   }
