@@ -14,18 +14,18 @@ addBtn.addEventListener('click', function() {
     const date = dateInput.value;
 
     if (category === '') {
-        alert('Please select a category');
+        alert('Seleccione la categoria');
         return;
     }
     if (isNaN(amount) || amount <=0 ) {
-        alert('Please enter a valid amoun')
+        alert('Por favor ingresa una cantidad válida')
         return;
     }
     if(date === '') {
-        alert('Please select a date')
+        alert('por favor seleccionar la fecha')
         return;
     }
-    expenses.push({category, amount, date});
+    expenses.push({categoria, monto, fecha});
 
     totalAmount += amount;
     totalAmountCell.textContent = totalAmount;
@@ -38,8 +38,8 @@ addBtn.addEventListener('click', function() {
     const deleteCell = newRow.insertCell();
     const deleteBtn = document.createElement('button');
 
-    deleteBtn.textContent = 'Delete';
-    deleteBtn.classList.add('delete-btn');
+    deleteBtn.textContent = 'Eliminar';
+    deleteBtn.classList.add('Boton de eliminar');
     deleteBtn.addEventListener('click', function() {
         expenses.splice(expenses.indexOf(expense), 1);
 
