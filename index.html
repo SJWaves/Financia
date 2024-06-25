@@ -5,23 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>ingresos y gastos diarios</title>
+    <title>Expense Tracker App</title>
 </head>
 <body>
-    <h1>ingresos y gastos diarios</h1>
+    <h1>Expense Tracker App</h1>
     <div class="input-section">
-        <label for="category-select">Category:</label>
-        <select id="category-select">
-            <option value="Comida & Bebida">Food & Beverage</option>
+        <label for="seleccionar categoria">Category:</label>
+        <select id="Seleccionar categoria">
+            <option value="Food & Beverage">Comida & Bebida</option>
             <option value="Arriendo">Rent</option>
-            <option value="Transporte">Transport</option>
+            <option value="Transpote">Transport</option>
             <option value="Relajarse">Relaxing</option>
         </select>
-        <label for="Cantidad de entrada">Amount:</label>
-        <input type="numero" id="cantidad entrada">
-        <label for="fecha de entrada">Date:</label>
-        <input type="fecha" id="date-input">
-        <button id="añadir boton">Add</button>
+        <label for="Monto de entradad">Amount:</label>
+        <input type="numero" id="Monto de entrada">
+        <label for="Fecha de entrada">Date:</label>
+        <input type="Fecha" id="Fecha de entrada">
+        <button id="Añafir boton">Add</button>
     </div>
     <div class="lista de gastos">
         <h2>Expenses List</h2>
@@ -34,13 +34,13 @@
                     <th>Eliminar</th>
                 </tr>
             </thead>
-            <tbody id="Cuerpo de la tabla de gastos">
+            <tbody id="expnese-table-body">
 
             </tbody>
             <tfoot>
                 <tr>
                     <td>Total:</td>
-                    <td id="Monto total"></td>
+                    <td id="total-amount"></td>
                     <td></td>
                     <td></td>
                 </tr>
